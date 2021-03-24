@@ -1,0 +1,88 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  html{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #title{
+    font-size: 35px;
+    line-height: 1.6;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .label{
+    padding-bottom: 20px;
+    color: #96979b;
+  }
+  
+  i {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    color: #96979b;
+  }
+  
+  #inputEmail, #inputPassword{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  
+  #inputEmail{
+    margin-bottom: 15px;
+  }
+  
+  input[type=email], input[type=password] {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    border-color: lightgray;
+  }
+  
+  label{
+    font-size: 12px;
+  }
+  
+  input[type=submit]{
+    height: 40px;
+    background-color: #07B4B4;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  }
+  
+  input[type=submit]:active, input[type=submit]:focus{
+    outline: none;
+  }
+  
+  input[type=submit]:hover{
+    background-color: #00B7B7;
+  }
+  
+  #forgotPassword{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  a{
+    color: lightgray;
+  }
+  
+  a:hover{
+    color: dimgrey;
+  }
